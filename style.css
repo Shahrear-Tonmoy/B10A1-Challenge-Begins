@@ -193,7 +193,7 @@ body {
 .frame1 {
     position: static;
     width: 946px;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -272,28 +272,25 @@ body {
 }
 
 .frame1-pic {
-
     padding-left: 300px;
     padding-top: 40px;
-
 }
 
 
 .frame2 {
     position: static;
     width: 946px;
-    height: 336px;
+    height: 250px;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
     padding: 50px;
+    padding-left: 140px;
     flex: none;
-    order: 1;
-    flex-grow: 0;
     margin: 32px 0px;
     border-radius: 16px;
-    background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
 .frame2-title {
@@ -304,6 +301,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 10px 0px 10px 0px;
     padding: 0px;
     flex: none;
     order: 0;
